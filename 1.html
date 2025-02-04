@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Ser mi San Valentín?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Pantalla de introducción con animación -->
+        <div class="intro">
+            <h1 id="intro-message">Señorita, ¿me daría el honor de su San Valentín? 💖</h1>
+            <img src="https://i.imgur.com/5kW1mGe.png" alt="Osito" class="sticker intro-sticker">
+        </div>
+
+        <!-- Botones y mensajes interactivos -->
+        <div id="response-container" class="hidden">
+            <button id="yes-button">¡Sí, claro!</button>
+            <button id="no-button">No, lo siento...</button>
+        </div>
+
+        <!-- Conversación en curso -->
+        <div id="conversation" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
